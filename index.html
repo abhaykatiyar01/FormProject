@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Register</h2>
+    <div id="error"></div>
+    <div id="success"></div>
+
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" maxlength="10">
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password">
+    </div>
+
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword">
+    </div>
+
+    <button id="submitBtn">Submit</button>
+  </div>
+
+  <script src="form.js"></script>
+</body>
+</html>
